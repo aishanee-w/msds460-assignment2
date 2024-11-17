@@ -1,0 +1,39 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.10 
+Build Date: Aug  1 2023 
+
+command line - cbc /var/folders/01/w3k5_y_x4mg_4y82c4n3pz0c0000gn/T/288710d2311c454abec861e1315da2db-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/01/w3k5_y_x4mg_4y82c4n3pz0c0000gn/T/288710d2311c454abec861e1315da2db-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 54 COLUMNS
+At line 154 RHS
+At line 204 BOUNDS
+At line 205 ENDATA
+Problem MODEL has 49 rows, 31 columns and 98 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-49) rows, 0 (-31) columns and 0 (-98) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 140
+After Postsolve, objective 140, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 140 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.01   (Wallclock seconds):       0.01
+
+Worst-Case Timeline:
+Task A starts at: 0.0 hours, ends at: 6.0 hours
+Task B starts at: 0.0 hours, ends at: 12.0 hours
+Task C starts at: 6.0 hours, ends at: 16.0 hours
+Task D1 starts at: 6.0 hours, ends at: 18.0 hours
+Task D2 starts at: 18.0 hours, ends at: 38.0 hours
+Task D3 starts at: 18.0 hours, ends at: 38.0 hours
+Task D4 starts at: 38.0 hours, ends at: 68.0 hours
+Task D5 starts at: 68.0 hours, ends at: 78.0 hours
+Task D6 starts at: 68.0 hours, ends at: 84.0 hours
+Task D7 starts at: 84.0 hours, ends at: 100.0 hours
+Task D8 starts at: 100.0 hours, ends at: 110.0 hours
+Task E starts at: 16.0 hours, ends at: 26.0 hours
+Task F starts at: 110.0 hours, ends at: 120.0 hours
+Task G starts at: 110.0 hours, ends at: 120.0 hours
+Task H starts at: 120.0 hours, ends at: 140.0 hours
+Total project duration: 140.0 hours
